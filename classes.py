@@ -443,16 +443,3 @@ class MouseExperiment:
 
 
 
-if __name__ == "__main__":
-    rytz = MouseExperiment('/Users/noahmoffat/Documents/Research/Yorgason_Lab/VR/Raw Data/CPP Experiment Data/Final Test Day/8010_CPP_y_maze__1.behavior')
-    #rytz.movement_plot()
-    #print(rytz.df.head())
-    #rytz.movement_plot(region='speed')
-    #rytz.heatmap()
-    #rytz.wall_distance_plot()
-    rytz.custom_regions_barplot()
-
-
-    # Figure out how to do batch analysis
-    # Find the best experiment file to use to try extracting boundaries from
-
